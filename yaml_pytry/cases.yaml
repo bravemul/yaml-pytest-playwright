@@ -1,0 +1,12 @@
+login_cases:
+  - username: "admin"
+    password: "123456"
+    expected:
+      code: 200
+      msg: "success"
+
+  - username: "wrong"
+    password: "123"
+    expected:
+      code: 401
+      msg: "unauthorized"

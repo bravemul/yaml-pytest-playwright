@@ -1,0 +1,16 @@
+login_page:
+  username_input: "input#username"
+  password_input: "input#password"
+  login_button: "button#login"
+  success_text: "text=Welcome"
+
+test_cases:
+  - username: "admin"
+    password: "123456"
+    expected_text: "Welcome"
+  - username: "wrong"
+    password: "123"
+    expected_text: "Login failed"
+  - username: "wrollng"
+    password: "12dd3"
+    expected_text: "Login failed"

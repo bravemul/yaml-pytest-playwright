@@ -1,0 +1,5 @@
+login_page:
+  username_input: "input#username"
+  password_input: "input#password"
+  login_button: "button#login"
+  success_text: "text=Welcome"
